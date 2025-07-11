@@ -93,7 +93,7 @@ class SearchController {
       if (!search) return;
 
       const response = await fetch(
-        `https://perenual.com/api/v2/species-list?key=<perenual-api-key>&q=${encodeURIComponent(
+        `https://perenual.com/api/v2/species-list?key=sk-RDDs68285968befa710005&q=${encodeURIComponent(
           search
         )}`
       );
