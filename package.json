@@ -35,5 +35,8 @@
       "android",
       "browser"
     ]
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.5"
   }
 }
